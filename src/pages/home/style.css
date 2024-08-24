@@ -105,6 +105,12 @@ section {
     height: 200px; /* Adjust the height to make the image smaller */
     width: 100%; /* Ensure it takes full width of the container */
 }
+@media (max-width: 491.98px) {
+    .small-image {
+        height: auto; /* Image height adjusts for smaller screens */
+        background-size: contain; /* Contain the image to avoid cropping */
+    }
+}
 
 /* Responsive adjustments */
 @media (max-width: 991.98px) {
